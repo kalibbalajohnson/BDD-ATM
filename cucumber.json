@@ -1,0 +1,15 @@
+{
+  "profile1": {
+    "paths": ["Features/atm.feature"],
+    "require": ["Features/stepsDefinitions/atm_test.js"],
+    "format": ["html:cucumber-report.html"],
+    "publish": true
+  },
+  "profile2": {
+    "paths": ["Features/atm2.feature"],
+    "require": ["Features/stepsDefinitions/atm_test.js"],
+    "format": ["html:cucumber-report.html"],
+    "publish": true
+    
+  }
+}
