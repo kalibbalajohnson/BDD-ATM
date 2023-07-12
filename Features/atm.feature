@@ -5,7 +5,7 @@ Feature: Transact money at ATM
     ATM Transactions
 
   Background:
-    Given that a client has a bank account
+    Given that a client has a bank account And a valid debit card
 
   @firstwithdrawal
   Scenario: Withdraw money from ATM

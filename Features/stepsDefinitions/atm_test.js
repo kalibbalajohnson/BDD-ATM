@@ -5,7 +5,7 @@ const ATM = require('../../atm');
 let atm;
 let result;
 
-Given('that a client has a bank account', function () {
+Given('that a client has a bank account And a valid debit card', function () {
   atm = new ATM();
   atm.deposit(500000); 
 });
